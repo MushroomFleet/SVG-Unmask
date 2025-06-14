@@ -1,0 +1,44 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <rect width="500" height="400" fill="#87CEEB" id="sky"/>
+  
+  <!-- Mountains (furthest back) -->
+  <polygon points="0,250 150,150 300,180 500,120 500,400 0,400" fill="#654321" id="mountain-range"/>
+  
+  <!-- Hills (middle background) -->
+  <ellipse cx="200" cy="300" rx="180" ry="60" fill="#90EE90" id="hill-back"/>
+  <ellipse cx="350" cy="310" rx="150" ry="50" fill="#98FB98" id="hill-front"/>
+  
+  <!-- Building (background structure) -->
+  <rect x="50" y="200" width="80" height="120" fill="#8B4513" id="building-base"/>
+  <polygon points="50,200 90,160 130,200" fill="#DC143C" id="building-roof"/>
+  
+  
+  
+  
+  <!-- Large tree (foreground) -->
+  <rect x="295" y="240" width="15" height="80" fill="#8B4513" id="tree-trunk"/>
+  <circle cx="302" cy="240" r="35" fill="#228B22" id="tree-foliage"/>
+  
+  <!-- Flowers (topmost details) -->
+  
+  
+  
+  
+  <!-- Birds (flying objects) -->
+  <path d="M 350 80 Q 355 75 360 80 Q 365 75 370 80" stroke="#000" stroke-width="2" fill="none" id="bird-1"/>
+  <path d="M 400 90 Q 405 85 410 90 Q 415 85 420 90" stroke="#000" stroke-width="2" fill="none" id="bird-2"/>
+  
+  <!-- Sun (atmospheric element) -->
+  
+  <g id="sun-rays">
+    <line x1="420" y1="25" x2="420" y2="35" stroke="#FFD700" stroke-width="2"/>
+    <line x1="420" y1="85" x2="420" y2="95" stroke="#FFD700" stroke-width="2"/>
+    <line x1="385" y1="60" x2="395" y2="60" stroke="#FFD700" stroke-width="2"/>
+    <line x1="445" y1="60" x2="455" y2="60" stroke="#FFD700" stroke-width="2"/>
+  </g>
+  
+  <!-- Clouds (overlay elements) -->
+  
+  
+</svg>

@@ -1,0 +1,55 @@
+{
+  "statistics": {
+    "totalSteps": 2,
+    "totalRemoved": 2,
+    "remainingElements": 5,
+    "removalEfficiency": 0.2857142857142857,
+    "removalByType": {
+      "circle": 2
+    },
+    "removalByStep": [
+      {
+        "step": 0,
+        "removed": 1,
+        "description": "Removed circle element (stroked)"
+      },
+      {
+        "step": 1,
+        "removed": 1,
+        "description": "Removed circle element (stroked)"
+      }
+    ],
+    "averageElementsPerStep": 1
+  },
+  "layerAnalysis": {
+    "totalElements": 7,
+    "visibleElements": 5,
+    "occludedElements": 2,
+    "semanticGroups": 1,
+    "layerDepths": {
+      "0": 5,
+      "2": 1,
+      "4": 1
+    },
+    "topologicalOrder": 7
+  },
+  "steps": [
+    {
+      "step": 0,
+      "description": "Removed circle element (stroked)",
+      "removedCount": 1,
+      "remainingCount": 6
+    },
+    {
+      "step": 1,
+      "description": "Removed circle element (stroked)",
+      "removedCount": 1,
+      "remainingCount": 5
+    }
+  ],
+  "metadata": {
+    "timestamp": "2025-06-14T12:31:05.966Z",
+    "originalElements": 7,
+    "finalElements": 5
+  }
+}

@@ -1,0 +1,18 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#87CEEB" id="background"/>
+  
+  <!-- Mountains -->
+  <polygon points="0,200 100,120 200,140 300,100 400,130 400,300 0,300" fill="#8B7355" id="mountains"/>
+  
+  <!-- Hills -->
+  <ellipse cx="150" cy="230" rx="120" ry="40" fill="#90EE90" id="hill-left"/>
+  <ellipse cx="280" cy="240" rx="100" ry="35" fill="#90EE90" id="hill-right"/>
+  
+  <!-- Trees -->
+  <circle cx="100" cy="180" r="25" fill="#228B22" id="tree-1"/>
+  
+  
+  <!-- Sun -->
+  <circle cx="320" cy="60" r="30" fill="#FFD700" id="sun"/>
+</svg>

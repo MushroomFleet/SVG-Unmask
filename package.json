@@ -1,0 +1,20 @@
+{
+  "name": "svg-unmask",
+  "version": "1.0.0",
+  "description": "Autoregressive layer peeling for SVG images - progressive simplification through layer removal",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "demo": "python -m http.server 8000",
+    "test": "node test/run-tests.js"
+  },
+  "keywords": ["svg", "vectorization", "layer-peeling", "image-processing", "graphics"],
+  "author": "SVG-Unmask Project",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^23.0.1"
+  },
+  "devDependencies": {}
+}
