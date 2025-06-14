@@ -1,0 +1,167 @@
+{
+  "statistics": {
+    "totalSteps": 12,
+    "totalRemoved": 12,
+    "remainingElements": 5,
+    "removalEfficiency": 0.7058823529411765,
+    "removalByType": {
+      "circle": 5,
+      "ellipse": 2,
+      "rect": 5
+    },
+    "removalByStep": [
+      {
+        "step": 0,
+        "removed": 1,
+        "description": "Removed circle element (stroked)"
+      },
+      {
+        "step": 1,
+        "removed": 1,
+        "description": "Removed circle element (stroked)"
+      },
+      {
+        "step": 2,
+        "removed": 1,
+        "description": "Removed ellipse element (stroked)"
+      },
+      {
+        "step": 3,
+        "removed": 1,
+        "description": "Removed circle element (stroked)"
+      },
+      {
+        "step": 4,
+        "removed": 1,
+        "description": "Removed ellipse element (stroked)"
+      },
+      {
+        "step": 5,
+        "removed": 1,
+        "description": "Removed rect element (stroked)"
+      },
+      {
+        "step": 6,
+        "removed": 1,
+        "description": "Removed circle element (stroked)"
+      },
+      {
+        "step": 7,
+        "removed": 1,
+        "description": "Removed rect element (stroked)"
+      },
+      {
+        "step": 8,
+        "removed": 1,
+        "description": "Removed rect element (stroked)"
+      },
+      {
+        "step": 9,
+        "removed": 1,
+        "description": "Removed circle element (stroked)"
+      },
+      {
+        "step": 10,
+        "removed": 1,
+        "description": "Removed rect element (stroked)"
+      },
+      {
+        "step": 11,
+        "removed": 1,
+        "description": "Removed rect element (stroked)"
+      }
+    ],
+    "averageElementsPerStep": 1
+  },
+  "layerAnalysis": {
+    "totalElements": 17,
+    "visibleElements": 5,
+    "occludedElements": 12,
+    "semanticGroups": 1,
+    "layerDepths": {
+      "0": 14,
+      "1": 2,
+      "4": 1
+    },
+    "topologicalOrder": 17
+  },
+  "steps": [
+    {
+      "step": 0,
+      "description": "Removed circle element (stroked)",
+      "removedCount": 1,
+      "remainingCount": 16
+    },
+    {
+      "step": 1,
+      "description": "Removed circle element (stroked)",
+      "removedCount": 1,
+      "remainingCount": 15
+    },
+    {
+      "step": 2,
+      "description": "Removed ellipse element (stroked)",
+      "removedCount": 1,
+      "remainingCount": 14
+    },
+    {
+      "step": 3,
+      "description": "Removed circle element (stroked)",
+      "removedCount": 1,
+      "remainingCount": 13
+    },
+    {
+      "step": 4,
+      "description": "Removed ellipse element (stroked)",
+      "removedCount": 1,
+      "remainingCount": 12
+    },
+    {
+      "step": 5,
+      "description": "Removed rect element (stroked)",
+      "removedCount": 1,
+      "remainingCount": 11
+    },
+    {
+      "step": 6,
+      "description": "Removed circle element (stroked)",
+      "removedCount": 1,
+      "remainingCount": 10
+    },
+    {
+      "step": 7,
+      "description": "Removed rect element (stroked)",
+      "removedCount": 1,
+      "remainingCount": 9
+    },
+    {
+      "step": 8,
+      "description": "Removed rect element (stroked)",
+      "removedCount": 1,
+      "remainingCount": 8
+    },
+    {
+      "step": 9,
+      "description": "Removed circle element (stroked)",
+      "removedCount": 1,
+      "remainingCount": 7
+    },
+    {
+      "step": 10,
+      "description": "Removed rect element (stroked)",
+      "removedCount": 1,
+      "remainingCount": 6
+    },
+    {
+      "step": 11,
+      "description": "Removed rect element (stroked)",
+      "removedCount": 1,
+      "remainingCount": 5
+    }
+  ],
+  "metadata": {
+    "timestamp": "2025-06-14T12:36:26.530Z",
+    "originalElements": 17,
+    "finalElements": 5
+  }
+}
